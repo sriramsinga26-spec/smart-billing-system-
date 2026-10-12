@@ -1,0 +1,16 @@
+{
+  "name": "smart-hotel-billing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
